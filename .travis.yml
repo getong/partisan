@@ -1,5 +1,6 @@
 language: erlang
 otp_release:
+  - 22.0
   - 21.2.5
   - 20.3
 install:
@@ -16,7 +17,7 @@ notifications:
   email: christopher.meiklejohn@gmail.com
   slack: lasp-lang:hiPRNnbUa3zdGrrXZfGRAF7D
   irc: "irc.freenode.org#lasp-lang"
-  webhooks: 
+  webhooks:
       urls:
           - https://webhooks.gitter.im/e/1382c852fbaf2633033a
 sudo: required
